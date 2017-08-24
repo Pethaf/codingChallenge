@@ -1,10 +1,11 @@
 body
 {
-  margin-top: 50vh;
+  margin-top: 10vh;
   background: black;
 }
 input
 {
+  padding-left: 5px;
   border-radius: 5px;
   width: 100%;
   display: block;
@@ -56,6 +57,12 @@ button
 button:hover
 {
   background: #d8fdff;
+}
+
+.container h1
+{
+  text-transform: capitalize;
+  color:#7DF9FF;
 }
 @media screen and (min-width:450px)
 {
