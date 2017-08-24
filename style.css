@@ -37,6 +37,21 @@ button
   color: #70e0e5;
   pading: 5px;
 }
+.img
+{
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+  margin-top: 10vh;
+  font-size: 25vw;
+}
+.container
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 button:hover
 {
